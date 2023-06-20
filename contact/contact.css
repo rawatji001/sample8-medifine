@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   max-width: 144rem;
+   background-color: #f0f4f5; 
+   overflow: hidden;
+   margin: auto;
+}
+
+/* Navbar---------------------------- */
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navbar img{
+    width: 15rem;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 5rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li:first-child{
+    font-weight: 700;
+}
+
+/* Contact Form--------------------- */
+.formPage{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 35rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+form h1{
+    font-size: 3.2rem;
+    text-align: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div label{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+form div input{
+    border: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+form div textarea{
+    border: transparent;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    height: 10rem;
+    resize: none;
+}
+
+form button{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    background: #20BC7E;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}

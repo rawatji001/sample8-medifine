@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 144rem;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Navbar---------------------------- */
+.navbar {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.navbar img {
+  width: 15rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-right: 5rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li:first-child {
+  font-weight: 700;
+}
+
+/* About Us information----------- */
+
+.about {
+  height: 85vh;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.explain {
+  width: 50%;
+  text-align: center;
+}
+.explain h1 {
+  font-size: 3.2rem;
+  color: #20bc7e;
+  margin-bottom: 2rem;
+}
+.explain p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* Boxes------------- */
+.card-boxes {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+.cards {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards h1{
+    font-size: 2.5rem;
+    color: #20bc7e;
+}
+.cards p{
+    font-size: 2rem;
+    font-weight: 600;
+}
